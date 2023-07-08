@@ -377,6 +377,26 @@
 .heheaa {
   padding: 0 10rem 0 10rem;
 }
+.warnachev {
+  color: black;
+}
+
+#vanta-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.darkmode--activated .projects-title,
+.darkmode--activated .projects-name,
+.darkmode--activated .projects-asal,
+.darkmode--activated .projects-desc,
+.darkmode--activated .projects-hasil,
+.darkmode--activated .warnachev {
+  color: white;
+}
 
 @media only screen and (max-width: 767px) {
   .hidden {

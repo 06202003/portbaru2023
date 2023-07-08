@@ -119,8 +119,10 @@ fetch('galer.json')
       <div class="col-md-12 d-flex justify-content-around">
         <img class="galer-image " src="${data[i].image}" />
       </div>
+
       `;
       // console.log(data);
       galerContainer.appendChild(div1);
     }
   });
+
