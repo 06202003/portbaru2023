@@ -401,11 +401,23 @@
   width: auto;
   font-size: 1em;
 }
+.img-aboutii {
+  width: 100%;
+  max-width: 400px;
+  height: 275px;
+}
 
 @media only screen and (max-width: 767px) {
   .hidden {
     display: none;
   }
+  .img-aboutii {
+    width: 100%;
+    max-width: 200px;
+    height: 150px;
+    margin-bottom: 3rem;
+  }
+
   .foto-hero {
     width: 100%;
     height: auto;
