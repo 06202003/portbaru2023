@@ -338,7 +338,7 @@
 .content {
   position: relative;
   z-index: 10;
-  -webkit-text-stroke: 1px black;
+  color: white;
   font-size: 3rem;
 }
 .awmeme {
@@ -515,7 +515,7 @@
   .content {
     position: relative;
     z-index: 10;
-    -webkit-text-stroke: 1px black;
+    color: white;
     font-size: 1rem;
   }
   .awmeme {
